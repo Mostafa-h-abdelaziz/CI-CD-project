@@ -13,9 +13,8 @@ public class MethodHandles {
     WebDriverWait wait;
     Actions actions;
 
-    private final By barNotification = By.cssSelector("div[id='bar-notification']");
 
-    private final By loader = By.cssSelector(".ajax-loading-block-window");
+    private final By loader = By.cssSelector("");
     public MethodHandles(WebDriver driver){
         this.driver = driver;
     }
@@ -84,8 +83,5 @@ public class MethodHandles {
         return webElement(locator).isDisplayed();
     }
 
-    public boolean barNotificationIsDisplayed(){
-        invisibilityOfElement(loader,10);
-        return isDisplayed(barNotification,10);
-    }
+
 }

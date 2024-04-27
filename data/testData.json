@@ -1,25 +1,20 @@
 {
-  "URL" : "https://demo.nopcommerce.com/",
+  "URL" : "https://automationexercise.com/",
   "Login": {
     "ValidCredentials": {
-      "Username": "Ramzy",
-      "Password": "123"
+      "Username": "",
+      "Password": ""
     },
     "InvalidCredentials": {
       "InvalidUsername": {
-        "Username": "Hadeer",
-        "Password": "456"
+        "Username": "",
+        "Password": ""
       },
       "InvalidPassword": {
-        "Username": "Ahmed",
-        "Password": "789"
+        "Username": "",
+        "Password": ""
       }
     }
 
   },
-  "Login1" : [
-  ["omar","123"],
-  ["mohamed","456"],
-  ["ahmed","789"]
-]
 }
