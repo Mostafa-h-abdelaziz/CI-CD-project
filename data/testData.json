@@ -1,5 +1,12 @@
 {
   "URL" : "https://automationexercise.com/",
+
+  "SignUp": {
+    "Username": "Mostafa Hassan",
+    "Email": "mostafa@gmail.com",
+    "Password": "mostafa123"
+  },
+
   "Login": {
     "ValidCredentials": {
       "Username": "",
